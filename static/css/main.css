@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hello {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainhead {
+    padding-left: 10rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.profile_info {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.profile h3 {
+    font-size: 1.5rem;
+}
+
+.profile p {
+    font-size: 1.1rem;
+}
+
+.not_logged {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not_logged button {
+    width: 5rem;
+    height: 1.5rem;
+}
