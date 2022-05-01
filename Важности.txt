@@ -1,0 +1,18 @@
+ {% if условие_1 %}
+        ветка 1
+  {% elif условие_2 %} (не обязательно)
+        ветка 1
+ {% else %} (не обязательно)
+       ветка 2
+ {% endif %}
+
+
+ <form method="post" enctype="multipart/form-data">
+   <div class="form-group">
+        <label for="photo">Выберите файл</label>
+        <input type="file" class="form-control-file" id="photo" name="file">
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+
+
