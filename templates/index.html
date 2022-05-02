@@ -25,11 +25,16 @@
                 <div class="profile_info">
                     <h3> {{ username }} </h3>
                     <p> Ваш статус - {{ status }}</p>
+                    <form action="/logout">
+                        <button>Выйти из аккаунта</button>
+                    </form>
                 <div>
             {% else %}
                 <div class="not_logged">
                     <h1>Войдите в свой аккаунт</h1>
-                    <button>Войти</button>
+                    <form method="GET" action="/login">
+                        <button>Войти</button>
+                    </form>
                 </div>
             {% endif %}
             </div>
